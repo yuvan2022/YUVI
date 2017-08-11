@@ -3,9 +3,9 @@ int main()
 {
     int base, exponent;
    long long result = 1;
-    printf("Enter a base number: ");
+    printf("base number: ");
     scanf("%d", &base);
-    printf("Enter an exponent: ");
+    printf("exponent number: ");
     scanf("%d", &exponent);
     while (exponent != 0)
     {
